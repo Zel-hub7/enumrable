@@ -24,16 +24,16 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 vet clinic <a name="about-project"></a>
+# 📖 ruby enumeration project <a name="about-project"></a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Database</summary>
+<summary>Ruby</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
 
@@ -57,9 +57,7 @@ To get a local copy up and running, follow these steps.
 Before running this project, make sure you have the following prerequisites installed:
 
 <ul>
-  <li>PostgreSQL</li>
-  <li>Node.js</li>
-  <li>Node.js</li>
+  <li>Ruby Installation</li>
 </ul>
 
 ### Setup
@@ -67,22 +65,20 @@ Before running this project, make sure you have the following prerequisites inst
 1. Clone this repository to your desired folder:
 
    ```sh
-   git clone https://github.com/BilalLiaquat7/vet_clinic_database.git
+   git clone https://github.com/Zel-hub7/enumrable/
    ```
 
 2. Navigate to the project directory:
 
    ```sh
-   cd vet_clinic
+   cd enumrable
    ```
 
 ### Database set up
 
-Create a PostgreSQL database for the project (if not already created):
+Create a file for ruby for the project (if not already created):
 
 ```sh
-  createdb vet_clinic_db
-  psql -U your_username -d vet_clinic_db -a -f database/schema.sql
 
 ```
 
@@ -91,7 +87,7 @@ Create a PostgreSQL database for the project (if not already created):
 To run the project:
 
 ```sh
-  npm start
+  ruby filename.ext
 ```
 
 ### Run tests
